@@ -1,4 +1,11 @@
 <?php
+/**
+ * User: malindar
+ * Date: 3/8/14
+ * Time: 12:43 AM
+ * malindaprasad.com
+ */
+
 ini_set("log_errors", "1");
 ini_set("error_log", "Errors.log.txt");
 ini_set("display_errors", "1");
@@ -65,5 +72,4 @@ function getHTTP($url, $param, $method, $httpuserpw, $header, $agent, $followLoc
 
 }
 
-echo json_encode(getHTTP('http://localhosst/dd/', '', 'GET', null, null,null,false));
 
